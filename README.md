@@ -87,12 +87,16 @@ Each script embeds the source data and persists it to `chroma_store/`. Re-run a 
 
 ## Running the App
 
+
 **Streamlit web UI**
 
 ```bash
 streamlit run app.py
 ```
-
+# Deploy with HggingFace Space:
+```bash
+https://huggingface.co/spaces/NisarZamani7/TeleCare-AI-RAG-Chatbot
+```
 Opens at `http://localhost:8501`. The sidebar has one-click sample questions and a button to clear the conversation history.
 
 **CLI**
