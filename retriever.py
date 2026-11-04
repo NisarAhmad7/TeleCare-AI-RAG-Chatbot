@@ -47,8 +47,4 @@ def build_retriever(
             + guides_retriever.invoke(query)
         )
 
-<<<<<<< HEAD
     return RunnableLambda(retrieve)
-=======
-    return RunnableLambda(retrieve)
->>>>>>> c0d2a12316fa9889f868d4d6baa39f09454ff2eb

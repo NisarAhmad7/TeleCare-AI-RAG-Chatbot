@@ -1,14 +1,12 @@
 # RAG Telecom Chatbot
 
 A Retrieval-Augmented Generation (RAG) customer care chatbot for telecom support. It answers questions about mobile connectivity, billing, SIM issues, and roaming by retrieving relevant context from three knowledge sources and generating responses with Qwen3-32B via Groq.
-<<<<<<< HEAD
-=======
+
 #### It is Deploy with Hugging face spaces 
 ```
 https://huggingface.co/spaces/NisarZamani7/TeleCare-AI-RAG-Chatbot
 ```
 
->>>>>>> c0d2a12316fa9889f868d4d6baa39f09454ff2eb
 
 ## Architecture
 
@@ -95,23 +93,15 @@ Each script embeds the source data and persists it to `chroma_store/`. Re-run a 
 
 ## Running the App
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c0d2a12316fa9889f868d4d6baa39f09454ff2eb
 **Streamlit web UI**
 
 ```bash
 streamlit run app.py
 ```
-<<<<<<< HEAD
-
-=======
 # Deploy with HggingFace Space:
 ```bash
 https://huggingface.co/spaces/NisarZamani7/TeleCare-AI-RAG-Chatbot
 ```
->>>>>>> c0d2a12316fa9889f868d4d6baa39f09454ff2eb
 Opens at `http://localhost:8501`. The sidebar has one-click sample questions and a button to clear the conversation history.
 
 **CLI**
